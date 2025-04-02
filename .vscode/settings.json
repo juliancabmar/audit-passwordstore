@@ -1,0 +1,9 @@
+{
+    "markdown-pdf.headerTemplate": "<div class=\"left-header\" style=\"font-size: 9px; margin-left: 1cm;\">Julián Cabrera Marceglia</div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \">%%ISO-DATE%%</div>",
+    "markdown-pdf.pageRanges": "",
+    "markdown-pdf.styles": [
+        "./cover_styles.css"
+    ],
+    "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"> <span class='pageNumber'></span> / <span class='totalPages'></span></div>",
+   
+}
