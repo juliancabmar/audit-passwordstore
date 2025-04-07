@@ -67,11 +67,11 @@ Assisting Auditors:
 - [Executive Summary](#executive-summary)
   - [Issues found](#issues-found)
 - [Findings](#findings)
-  - [High Risk Findings](#High-Risk-Findings)
-    - [\[H-1\] All data on-chain is public data, so everyone can see `s_password` value](#h-1-All-data-on-chain-is-public-data,-so-everyone-can-see-`s_password`-value)
-    - [\[H-2\] `PasswordStore::setPassword` haven't access control, meaning a non-owner could set a password](#h-2-PasswordStore::setPassword-haven't-access-control,-meaning-a-non-owner-could-set-a-password)
-  - [Informational](#Informational)
-    - [\[I-1\] `PasswordStore::setPassword` function not take any parameters, but the related natspect indicated one](#I-1-PasswordStore::setPassword-function-not-take-any-parameters,-but-the-related-natspect-indicated-one)
+  - [High Risk Findings](#high-risk-findings)
+    - [\[H-1\] All data on-chain is public data, so everyone can see `s_password` value](#h-1-all-data-on-chain-is-public-data-so-everyone-can-see-s_password-value)
+    - [\[H-2\] `PasswordStore::setPassword` haven't access control, meaning a non-owner could set a password](#h-2-passwordstoresetpassword-havent-access-control-meaning-a-non-owner-could-set-a-password)
+  - [Informational](#informational)
+    - [\[I-1\] `PasswordStore::setPassword` function not take any parameters, but the related natspect indicated one](#i-1-passwordstoresetpassword-function-not-take-any-parameters-but-the-related-natspect-indicated-one)
 </details>
 </br>
 
@@ -222,7 +222,7 @@ function setPassword(string memory newPassword) external {
 }
 ```
 
-## Informational Findings
+## Informational
 
 ### [I-1] `PasswordStore::setPassword` function not take any parameters, but the related natspect indicated one. 
 
